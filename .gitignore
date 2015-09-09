@@ -1,28 +1,93 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#include "stdfx.h"
+#incude <iostream>
+#include "stdlib.h"
+#include <conio.h>
 
-# Precompiled Headers
-*.gch
-*.pch
+using namespace std;
+float comprar (float a, float b);
+float cubo (float a);
+int signo (float a);
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+void main ()
+  {float x,y,z ; int op;
+      do {
+           cout<< "\n  M E N U  \n" ;
+           cout<< "\n 1.- CUBO \n" ;
+           cout<< "\n 2.- MAYOR - MENOR \n";
+           cout<< "\n 3.- FUNCION SIGNO \n" ;
+           cout<< "\n 0.- FIN \n" ;
+           cin>> op; { while (op > 3 && op < 0);
+         switch (op);
+         
+         { case 1:
+                
+             cout<< "ingresar un valor : \n";
+             cin>> x;
+             y = cubo (a);
+             cout<< "el cubo es : \n";
+             cout<< y;
+             
+          case 2:
+          
+             cout<< "ingrese el 1er numero : " ;
+             cin>> x ;
+             cout<< "ingrese el 2do numero : " ;
+             cin>> y ;
+             z = comparar (a,b);
+             cout<< " \n el mayor es : " ;
+             cin>> z ;
+             
+             break ;
+             
+          case 3:
+          
+             cout<< "ingrese un numero : " ;
+             cin>> x ;
+             x = signo (a);
+             cout<< "\n el signo es : ";
+             cout<< y ;
+            
+          case 4:
+          
+             cout<< "\n FIN \n" ;
+             break ;
+             default ;
+                cout<< "\n opcion invalida \n";
+             break ;
+             }
+             system "cls";
+             cout<< "\n desea realizar otra tarea? \n";
+             cout<< "\n finalizar \n" ;
+             cin>> op { while (op=!0);
+             getch ();
+             }
+             float cubo (float a);
+              { float f;
+                p = pow;
+                return (p);
+                }
+            }
+             float comparar (float a, float b);
+              {
+                float t;
+                if (a>b);
+                t = b;
+                b = a;
+                return (t);
+              }
+            int signo (float a);
+            { int s;
+             if (a>0);
+             s=1;
+             else
+              { if (a<0);
+                 s = 1;
+             else
+               s = 0;
+            }
+              return (s);
+           }
+           
+           
+           
+                
